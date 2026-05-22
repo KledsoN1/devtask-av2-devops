@@ -48,7 +48,7 @@ devtask-av2-devops/
 ## Como clonar o projeto
 
 ```bash
-git clone LINK_DO_REPOSITORIO
+git clone https://github.com/KledsoN1/devtask-av2-devops
 ```
 
 ```bash
