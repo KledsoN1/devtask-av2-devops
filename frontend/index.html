@@ -7,5 +7,52 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
- 
+ <main class="container">
+    <section class="hero">
+      <h1>DevTask</h1>
+      <p>Gerenciador de tarefas da squad para o projeto AV2 de DevOps.</p>
+    </section>
+
+
+    <section class="card">
+      <h2>Nova Tarefa</h2>
+      
+
+      <form id="task-form">
+        <input
+          type="text"
+          id="title"
+          placeholder="Título da tarefa"
+          required
+        />
+
+
+        <input
+          type="text"
+          id="responsible"
+          placeholder="Responsável"
+          required
+        />
+
+
+        <select id="priority" required>
+          <option value="">Selecione a prioridade</option>
+          <option value="Alta">Alta</option>
+          <option value="Média">Média</option>
+          <option value="Baixa">Baixa</option>
+        </select>
+
+
+        <button type="submit">Adicionar tarefa</button>
+        </form>
+        </section>
+         <section class="card">
+      <h2>Tarefas da squad</h2>
+      <ul id="task-list"></ul>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
 </html>
