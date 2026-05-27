@@ -6,6 +6,8 @@ O DevTask é uma aplicação web desenvolvida para o projeto AV2 da disciplina d
 
 O sistema permite gerenciar tarefas de uma squad, possibilitando cadastrar, listar, concluir e remover tarefas. A proposta é simular uma organização simples de atividades em equipe, aplicando práticas modernas de desenvolvimento, versionamento, containerização e automação.
 
+Além da funcionalidade principal, o projeto foi estruturado para demostrar boas práticas de Devops, incluindo versionamento com Git/Github, containeirização com Docker e automação de build com Github Actions.
+
 ## Problema que resolve
 
 Durante o desenvolvimento de projetos em equipe, é comum que tarefas fiquem espalhadas ou sem responsável definido. O DevTask ajuda a organizar as atividades da squad, permitindo visualizar responsáveis, prioridades e status das tarefas.
